@@ -1,0 +1,19 @@
+Math 4330 Final Project Written Part
+1) Explain the differences made to Classical Gram-Schmidt to obtain Modified Gram-Schmidt. Briefly state why Modified is necessary.
+    
+    The first difference is that the Modified Gram-Schmidt defines everything using i.  In code there is also three forloops for Modified
+    Gram-Schidt as compared to two. This helps to give a more accurate answer by reducing rounding error.
+    
+3) Briefly explain the concepts of Conditioning and Stability and why they are necessary.
+    
+    Conditioning is a way to analyze how small changes to an algorithm affect the solution.  
+    There are two cases, well and ill.  
+    Ill is the bad kind as it affects it the most.  
+    This is necessary because it can tell you whether or not the changes
+    have a significant effect.
+    
+    Stability is another way to check accuracy of your model using absolute error and relative error.  
+    It is how a problem handles error.  
+    There are two types, forward and backward.  Backwards stability is stronger than forwards.
+    In practice this is extremely useful for building bridges or material composition.  
+    
